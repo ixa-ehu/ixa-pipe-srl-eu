@@ -31,7 +31,7 @@ order to install the necessary resources and dependencies.
 
  - Download the package of the linguistic resources from the following
 link:
-[srl-eu-resources-1.0.0.tgz](http://ixa2.si.ehu.es/ixakat/downloads/srl-eu-resources-1.0.0.tgz).
+[srl-eu-resources-1.0.0.tgz](http://ixa2.si.ehu.es/ixakat/downloads/srl-eu-resources-v1.0.0.tgz).
 
  - Decompress the package and copy all the files to the `resources`
 directory.
@@ -79,7 +79,7 @@ A executable `run.sh` is provided to run the **ixa-pipe-srl-eu** tool
 arguments explained above). You can use it, but before running it,
 update the `rootDir`, `svmLightExec`, `svmMulticlassExec` and
 `megamOptExec` variables as specified in the
-[installation](#Installation) section.
+[installation](#installation) section.
 
 This tool reads from standard input. It should be UTF-8 encoded NAF
 format, containing lemmas, PoS tags, morphological annotations and
@@ -146,7 +146,7 @@ source code. This resource has its own license:
 
 Moreover, this tool uses some third-party tools which are not
 distributed due to their licenses (the user has to get and installed
-as specified in the [installation](#Installation) section). These are
+as specified in the [installation](#installation) section). These are
 those third-party tools and their copyright owners and licenses:
 
  - [SVM light](http://svmlight.joachims.org/): Copyright (C) 2000,

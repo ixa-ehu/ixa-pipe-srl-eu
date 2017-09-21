@@ -29,7 +29,7 @@ jarraitu beharko dituzu beharrezko baliabide eta dependentziak
 instalatzeko:
 
  - Deskargatu baliabideen paketea hemendik:
-   [srl-eu-resources-1.0.0.tgz](http://ixa2.si.ehu.es/ixakat/downloads/srl-eu-resources-1.0.0.tgz).
+   [srl-eu-resources-1.0.0.tgz](http://ixa2.si.ehu.es/ixakat/downloads/srl-eu-resources-v1.0.0.tgz).
 
  - Deskonprimitu pakete hori eta kopiatu fitxategi guztiak `resources`
    direktoriora.
@@ -80,7 +80,7 @@ tresna exekutatu ahal izateko (script honek `nagusia.pl` script-ari
 deitzen dio goian azaldutako beharrezko argumentu guztiekin). Erabil
 dezakezu, baina exekutatu aurretik eguneratu `rootDir`,
 `svmLightExec`, `svmMulticlassExec` eta `megamOptExec` aldagaiak
-[instalazioa](#Instalazioa) atalean adierazitako moduan.
+[instalazioa](#instalazioa) atalean adierazitako moduan.
 
 Tresna honek sarrera estandarretik irakurtzen du, eta sarrera horrek
 UTF-8an kodetutako NAF formatuan dagoen dokumentua izan behar du,
@@ -146,7 +146,7 @@ batera banatzen dugu. Baliabide honek bere lizentzia du:
 Horretaz gain, tresna honek beste hainbat kanpoko tresna erabiltzen
 ditu, baina hauen lizentzia dela eta, ez ditugu banatzen
 (erabiltzaileak lortu eta instalatu beharko ditu
-[instalazioa](#Instalazioa) atalean adierazitako moduan). Hauexek dira
+[instalazioa](#instalazioa) atalean adierazitako moduan). Hauexek dira
 tresna horiek eta horien copyright jabeak eta lizentziak:
 
  - [SVM light](http://svmlight.joachims.org/): Copyright (C) 2000,
