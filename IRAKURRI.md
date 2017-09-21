@@ -18,7 +18,7 @@ irteeran lortzen da:
 [`ixa-pipe-dep-eu`](http://ixa2.si.ehu.es/ixakat/ixa-pipe-dep-eu.php)
 
 
-##Instalazioa
+## Instalazioa
 
 Lehenik eta behin, tresnaren iturburu kodea eta exekutagarria lortu, honela: 
 
@@ -61,32 +61,26 @@ beharko dituzu zure makinan.
 `nagusia.pl` script-a erabili behar da **ixa-pipe-srl-eu** tresna
 exekutatzeko. `nagusia.pl` komandoaren sintaxi osoa honakoa da:
 
-    > perl nagusia.pl -d DIR -i ID -l SVM_LIGHT_EXEKUTAGARRIA -m
-    SVM_MULTICLASS_EXEKUTAGARRIA -o MEGAM_OPT_EXEKUTAGARRIA
+    > perl nagusia.pl -d DIR -i ID -l SVM_LIGHT_EXEKUTAGARRIA -m SVM_MULTICLASS_EXEKUTAGARRIA -o MEGAM_OPT_EXEKUTAGARRIA
 
     argumentuak:
 
-     -d DIR [Beharrezkoa] Zehaztu exekutagarri hau dagoen
-      direktorioaren kokapena.
+     -d DIR [Beharrezkoa] Zehaztu exekutagarri hau dagoen direktorioaren kokapena.
 
-     -i ID [Beharrezkoa] Errepikatuko ez den identifikadore zenbaki
-      bat.
+     -i ID [Beharrezkoa] Errepikatuko ez den identifikadore zenbaki bat.
 
-     -l SVM_LIGHT_EXEKUTAGARRIA [Beharrezkoa] Zehaztu SVM ligth
-      exekutagarriaren kokapena.
+     -l SVM_LIGHT_EXEKUTAGARRIA [Beharrezkoa] Zehaztu SVM ligth exekutagarriaren kokapena.
 
-     -m SVM_MULTICLASS_EXEKUTAGARRIA [Beharrezkoa] Zehaztu SVM
-      multiclass exekutagarriaren kokapena. 
+     -m SVM_MULTICLASS_EXEKUTAGARRIA [Beharrezkoa] Zehaztu SVM multiclass exekutagarriaren kokapena. 
 
-     -o MEGAM_OPT_EXEKUTAGARRIA [Beharrezkoa] Zehaztu Megam model
-      optimization exekutagarriaren kokapena.
+     -o MEGAM_OPT_EXEKUTAGARRIA [Beharrezkoa] Zehaztu Megam model optimization exekutagarriaren kokapena.
 
 `run.sh` script exekutagarria eskuragarri jarri da **ixa-pipe-srl-eu**
 tresna exekutatu ahal izateko (script honek `nagusia.pl` script-ari
 deitzen dio goian azaldutako beharrezko argumentu guztiekin). Erabil
 dezakezu, baina exekutatu aurretik eguneratu `rootDir`,
 `svmLightExec`, `svmMulticlassExec` eta `megamOptExec` aldagaiak
-[instalazioa](#instalazioa) atalean adierazitako moduan.
+[instalazioa](#Instalazioa) atalean adierazitako moduan.
 
 Tresna honek sarrera estandarretik irakurtzen du, eta sarrera horrek
 UTF-8an kodetutako NAF formatuan dagoen dokumentua izan behar du,
@@ -100,10 +94,9 @@ ixaKat tresnek osatzen duten analisi katearen irteeran lortzen da:
 [`ixa-pipe-dep-eu`](http://ixa2.si.ehu.es/ixakat/ixa-pipe-dep-eu.php)
 
 Hortaz, testu gordina duen fitxategi bateko rol semantikoak lortzeko,
-honako komando hau erabil dezakegu (dena komando-lerro bakarrean):
+honako komando hau erabil dezakegu:
 
-    > cat test.txt | sh ixa-pipe-pos-eu/ixa-pipe-pos-eu.sh | sh
-    ixa-pipe-dep-eu/run.sh | sh ixa-pipe-srl-eu/run.sh
+    > cat test.txt | sh ixa-pipe-pos-eu/ixa-pipe-pos-eu.sh | sh ixa-pipe-dep-eu/run.sh | sh ixa-pipe-srl-eu/run.sh
 
 Tresnak irteera estandarrean idatziko du, UTF-8an kodetutatako NAF
 formatuan. Irteerako NAF dokumentuan `srl` elementuen bidez rol
@@ -153,7 +146,7 @@ batera banatzen dugu. Baliabide honek bere lizentzia du:
 Horretaz gain, tresna honek beste hainbat kanpoko tresna erabiltzen
 ditu, baina hauen lizentzia dela eta, ez ditugu banatzen
 (erabiltzaileak lortu eta instalatu beharko ditu
-[instalazioa](#instalazioa) atalean adierazitako moduan). Hauexek dira
+[instalazioa](#Instalazioa) atalean adierazitako moduan). Hauexek dira
 tresna horiek eta horien copyright jabeak eta lizentziak:
 
  - [SVM light](http://svmlight.joachims.org/): Copyright (C) 2000,
