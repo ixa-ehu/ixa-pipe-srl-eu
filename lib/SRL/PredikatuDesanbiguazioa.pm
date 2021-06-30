@@ -404,7 +404,7 @@ sub itzuli_zero {
     my ($predlema, $pId, $dir) = @_;
     my $irt_dir = "$dir/tmp/$pId/3_Itzulpena_$pId/$predlema.html";
     open my $firteera, ">:encoding(UTF-8)", $irt_dir or die "Ezin da $irt_dir fitxategia ireki: $!\n";
-    my $URL = "http://hiztegiak.elhuyar.org/eu_en/$predlema";
+    my $URL = "http://hiztegiak.elhuyar.eus/eu_en/$predlema";
     my $agent = LWP::UserAgent->new(env_proxy => 1,keep_alive => 1, timeout => 30);
     my $header = HTTP::Request->new(GET => $URL);
     my $request = HTTP::Request->new('GET', $URL, $header);
